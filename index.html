@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Seve</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+  rel="stylesheet"/>
+</head>
+<body>
+    <!-- header -->
+    <nav>
+        <div id="menu">
+                <li id="tab"><span id="logo"> <img src="logo.png" alt="" id="logo"> BESIC SEVA</span></il>                    
+                <ul class="tab" id="tab_desktop">
+                    <li class="tab"><a href="#parsone" class="tabs">HOME</a> </li>
+                    <li class="tab"><a href="#service_proviode" class="tabs"> SERVICES</a></li>
+                    <li class="tab"><a href="#about" class="tabs">ABOUT</a></li>
+                    <li class="tab"><a href="#contact" class="tabs"> CONTACT</a></li>
+                    <li class="tab"><a href="login/login_page.html" target="_blank" class="tabs"> <button>LOGIN</button> </a></li>
+                </ul>
+            <i class="ri-menu-line" id="menuIcon">
+                    <ul class="tab" id="tab_menu">
+                    <li class="tab"><a href="#logo" class="tabs"> <img src="logo.png" alt="" id="logo"> BESIC SEVA</a> </li>
+                    <li class="tab"><a href="#parsone" class="tabs">HOME</a> </li>
+                    <li class="tab"><a href="#service_proviode" class="tabs"> SERVICES</a></li>
+                    <li class="tab"><a href="#about" class="tabs">ABOUT</a></li>
+                    <li class="tab"><a href="#contact" class="tabs"> CONTACT</a></li>
+                    <li class="tab"><a href="login/login_page.html" target="_blank" class="tabs"> <button>LOGIN</button> </a></li>
+                </ul>
+            </i>
+        </div>
+    </nav>
+    <h1> hello
+    </h1>
+<!-- header end  -->
+    <!-- parsone image -->
+     <div id="parsone" >
+    <h3>SERVICES MAN</h3>
+    <center>
+    <img src="image/img1.jpg" alt="" class="img_person" id="img1">
+     <img src="image/img2.jpg" alt="" class="img_person" id="img2">
+     <img src="image/img3.jpg" alt="" class="img_person" id="img3">
+    </center>
+    </div>
+    <!-- end parsone image  -->
+    
+    <!-- SERVIES PROVIDES  -->
+    <div id="service_proviode">
+        <h2>SERVICES WE PROVIDE</h2>
+        <div class="service_box" onclick="showServiceInfo('Services_image/plumber-removebg-preview.png', 'PLUMBER', 'Our skilled plumbers are ready to tackle any plumbing issue you may have, from leaky faucets to clogged drains. We provide prompt and reliable service to ensure your plumbing system is functioning smoothly.', 'John Doe', '123-456-7890','john@gmail.com','123 Main St, Cityville')">
+            <img src="Services_image/plumber-removebg-preview.png" alt="" class="service_img">
+            <h3>PLUMBER</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/AC.png', 'AC REPAIR', 'Our skilled AC technicians are ready to tackle any air conditioning issue you may have, from broken compressors to refrigerant leaks. We provide prompt and reliable service to ensure your AC system is functioning smoothly.', 'Jane Smith', '987-654-3210','jane@gmail.com','456 Oak St, Townsville')">
+            <img src="Services_image/AC.png" alt="" class="service_img">
+            <h3>AC REPAIR</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/bike.png', 'BIKE REPAIR', 'Our skilled bike mechanics are ready to tackle any bicycle issue you may have, from broken chains to flat tires. We provide prompt and reliable service to ensure your bike is functioning smoothly.', 'Mike Johnson', '555-123-4567','mike@gmail.com','789 Pine St, Villagetown')">
+            <img src="Services_image/bike.png" alt="" class="service_img">
+            <h3>BIKE REPAIR</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/car.png', 'CAR REPAIR', 'Our skilled car mechanics are ready to tackle any automotive issue you may have, from engine problems to brake repairs. We provide prompt and reliable service to ensure your car is functioning smoothly.', 'Sarah Williams', '111-222-3333','sarah@gmail.com','101 Elm St, Cityville')">
+            <img src="Services_image/car.png" alt="" class="service_img">
+            <h3>CAR REPAIR</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/electrician.jpg', 'ELECTRICIAN', 'Our skilled electricians are ready to tackle any electrical issue you may have, from faulty wiring to circuit breaker problems. We provide prompt and reliable service to ensure your electrical system is functioning smoothly.', 'Robert Brown', '444-555-6666','robert@gmail.com','202 Maple St, Townsville')">
+            <img src="Services_image/electrician.jpg" alt="" class="service_img">
+            <h3>ELECTRICIAN</h3>
+            </div>
+         <div class="service_box" onclick="showServiceInfo('Services_image/network engineer.png', 'NETWORK ENGINEER', 'Our skilled network engineers are ready to tackle any networking issue you may have, from router configuration to network security. We provide prompt and reliable service to ensure your network is functioning smoothly.', 'David Wilson', '777-888-9999','david@gmail.com','303 Cedar St, Cityville')">
+            <img src="Services_image/network engineer.png" alt="" class="service_img">
+            <h3>NETWORK ENGINEER</h3>
+         </div>
+         <div class="service_box" onclick="showServiceInfo('Services_image/painter.png', 'PAINTER', 'Our skilled painters are ready to tackle any painting issue you may have, from interior painting to exterior finishing. We provide prompt and reliable service to ensure your property looks great.', 'Emily Davis', '222-333-4444','emily@gmail.com','505 Spruce St, Townsville')">
+            <img src="Services_image/painter.png" alt="" class="service_img">
+            <h3>PAINTER</h3>
+         </div>
+            <div class="service_box" onclick="showServiceInfo('Services_image/carpenter.jpg', 'CARPENTER', 'Our skilled carpenters are ready to tackle any woodworking issue you may have, from furniture assembly to structural repairs. We provide prompt and reliable service to ensure your project is completed perfectly.', 'James Miller', '333-444-5555','james@gmail.com','404 Oak St, Villagetown')">
+                <img src="Services_image/carpenter.jpg" alt="" class="service_img">
+                <h3>CARPENTER</h3>
+            </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/tiles and marble filters.jpeg', 'TILES AND MARBLE FITTER', 'Our skilled tile and marble fitters are ready to tackle any tiling or marble installation issue you may have, from bathroom tiles to kitchen countertops. We provide prompt and reliable service to ensure your space looks beautiful.', 'Lisa Anderson', '666-777-8888','lisa@gmail.com','606 Birch St, Cityville')">
+            <img src="Services_image/tiles and marble filters.jpeg" alt="" class="service_img">
+            <h3>TILES AND MARBLE FITTER</h3>
+            </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/welder.jpeg', 'WELDER', 'Our skilled welders are ready to tackle any welding issue you may have, from structural repairs to custom fabrication. We provide prompt and reliable service to ensure your project is completed perfectly.', 'Michael Taylor', '555-666-7777','michael@gmail.com','303 Pine St, Cityville')">
+            <img src="Services_image/welder.jpeg" alt="" class="service_img">
+            <h3>WELDER</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/mobile.jpg', 'MOBILE REPAIR', 'Our skilled mobile repair technicians are ready to tackle any mobile device issue you may have, from screen replacements to software troubleshooting. We provide prompt and reliable service to ensure your device is functioning smoothly.', 'Jennifer Lee', '888-999-0000','jennifer@gmail.com','707 Willow St, Townsville')">
+            <img src="Services_image/mobile.jpg" alt="" class="service_img">
+            <h3>MOBILE REPAIR</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/chee.png', 'COOKING (CHEE)', 'Our skilled chefs are ready to prepare delicious meals for any occasion, from intimate dinners to large gatherings. We provide prompt and reliable service to ensure your culinary needs are met with excellence.', 'Olivia Martinez', '111-333-5555','olivia@gmail.com','101 Maple St, Townsville')">
+            <img src="Services_image/chee.png" alt="" class="service_img">
+            <h3>COOKING (CHEE)</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/agriculture.png', 'AGRICULTURE (KISHAN)', 'Our skilled agricultural workers are ready to assist with various farming tasks, from planting and harvesting to livestock care. We provide prompt and reliable service to ensure your agricultural operations run smoothly.', 'William Garcia', '222-444-6666','william@gmail.com','202 Cedar St, Townsville')">
+            <img src="Services_image/agriculture.png" alt="" class="service_img">
+            <h3>AGRICULTURE (KISHAN)</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/veterinarian doctor.png', 'VETERINARIAN DOCTOR', 'Our skilled veterinarians are ready to provide medical care for your pets, from routine check-ups to emergency treatments. We provide prompt and reliable service to ensure the health and well-being of your beloved animals.', 'Sophia Hernandez', '777-555-3333','sophia@gmail.com','505 Spruce St, Townsville')">
+            <img src="Services_image/veterinarian doctor.png" alt="" class="service_img">
+            <h3>VETERINARIAN DOCTOR</h3>
+        </div>
+        <div class="service_box" onclick="showServiceInfo('Services_image/more.png', 'MORE...', 'More services coming soon.', 'Admin', '000-000-0000','admin@gmail.com','123 Main St, Townsville')">
+            <img src="Services_image/more.png" alt="" class="service_img">
+            <h3>MORE...</h3>
+        </div>
+    </div>
+    <!-- END SERVIES -->
+     <!-- services full info -->
+    <div id="service-info">
+        <button id="close-btn">X</button>
+        <img src="logo.png" alt="service image" id="service-image">
+        <h3 id="service-name">services name</h3>
+        <p id="service-description">service description</p>
+        <h3>Employee details</h3>
+        <p id="employee-name">Employee name</p>
+        <p id="employee-contact">Employee contact number</p>
+        <p id="employee-email">Employee email</p>
+        <p id="employee-address">Employee address</p>
+
+    </div>
+     <!-- end services full info -->
+    <!-- about us -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h1 style="text-align: left;">About Us</h1>
+            <p>
+                Welcome to our website! We are a trusted and professional platform dedicated to providing
+                multiple high-quality services to meet the diverse needs of our customers.
+            </p>
+
+            <p>
+                Our main goal is to deliver reliable, affordable, and efficient solutions all in one place.
+                We focus on customer satisfaction by offering easy processes, timely service, and dependable support.
+            </p>
+
+            <p>
+                We believe in transparency, quality, and long-term relationships with our clients.
+                Your trust is our priority, and your satisfaction is our success.
+            </p>
+        </div>
+    </section>
+
+    <!-- end about us -->
+    <footer>
+        <div class="footer-content" id="contact">
+            <h3>Basic Seve</h3>
+            <p>Your trusted partner for reliable and affordable services.</p>
+            <ul class="socials">
+                <li><a href="#"> Instagram <i class="ri-instagram-line"></i> </a></li>
+                <li><a href="#"> Facebook  <i class="ri-facebook-line"></i>  </a></li>
+                <li><a href="#">Twitter    <i class="ri-twitter-line"></i>   </a></li>
+                <li><a href="#">Linkedin   <i class="ri-linkedin-line"></i>  </a></li>
+                <li><a href="#">Github     <i class="ri-github-line">  </i>  </a> </li>
+            </ul>
+            
+        </div>
+        <div class="footer-bottom">
+            <p> Developer Shivam Maurya | Designer Neeraj Vishwakarma | &copy; 2024 Basic Seve. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
