@@ -53,7 +53,7 @@ function showServiceInfo(imgSrc, title, description, providerName, providerPhone
     provider_Name.innerText = providerName;
     provider_Phone.innerText = providerPhone;
     provider_Email.innerText = providerEmail;
-    provider_Address.innerText = providerAddress;git
+    provider_Address.innerText = providerAddress;
     serviceInfo.style.display = "block";
     serviceBoxes.style.position = "absolute";
 }
