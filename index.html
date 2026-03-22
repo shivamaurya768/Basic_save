@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,17 +12,19 @@
 </head>
 <body>
     <!-- header -->
-    <nav>
         <div id="menu">
-                <li id="tab"><span id="logo"> <img src="logo.png" alt="" id="logo"> BESIC SEVA</span></il>                    
+                <li id="tab"><span id="logo"> <img src="logo.png" alt="" id="logo"> BESIC SEVA</span></il>                   
                 <ul class="tab" id="tab_desktop">
                     <li class="tab"><a href="#parsone" class="tabs">HOME</a> </li>
                     <li class="tab"><a href="#service_proviode" class="tabs"> SERVICES</a></li>
                     <li class="tab"><a href="#about" class="tabs">ABOUT</a></li>
                     <li class="tab"><a href="#contact" class="tabs"> CONTACT</a></li>
+                    <li class="tab"><a href="#" class="tabs"><i class="ri-sun-fill"></i></a></li>
                     <li class="tab"><a href="login/login_page.html" target="_blank" class="tabs"> <button>LOGIN</button> </a></li>
+                    
                 </ul>
-            <i class="ri-menu-line" id="menuIcon">
+            <div id="phone_menu">
+                <i class="ri-menu-line" id="menuIcon" onclick="menuicon()" >
                     <ul class="tab" id="tab_menu">
                     <li class="tab"><a href="#logo" class="tabs"> <img src="logo.png" alt="" id="logo"> BESIC SEVA</a> </li>
                     <li class="tab"><a href="#parsone" class="tabs">HOME</a> </li>
@@ -29,11 +32,13 @@
                     <li class="tab"><a href="#about" class="tabs">ABOUT</a></li>
                     <li class="tab"><a href="#contact" class="tabs"> CONTACT</a></li>
                     <li class="tab"><a href="login/login_page.html" target="_blank" class="tabs"> <button>LOGIN</button> </a></li>
-                </ul>
-            </i>
+                    <div><i class="ri-sun-fill" id="darkmode"></i></div>
+                    </ul>
+                </i>
+
+            </div>
         </div>
-    </nav>
-    <h1> hello
+    <h1 style="color:white"><br> <br>
     </h1>
 <!-- header end  -->
     <!-- parsone image -->
@@ -127,9 +132,10 @@
     </div>
      <!-- end services full info -->
     <!-- about us -->
-    <section class="about-section" id="about">
+    <div class="about-section" id="about">
+         <h1 style="text-align: center">ABOUT US</h1>
         <div class="container">
-            <h1 style="text-align: left;">About Us</h1>
+            
             <p>
                 Welcome to our website! We are a trusted and professional platform dedicated to providing
                 multiple high-quality services to meet the diverse needs of our customers.
@@ -145,24 +151,24 @@
                 Your trust is our priority, and your satisfaction is our success.
             </p>
         </div>
-    </section>
-
+    </div>
     <!-- end about us -->
     <footer>
         <div class="footer-content" id="contact">
             <h3>Basic Seve</h3>
-            <p>Your trusted partner for reliable and affordable services.</p>
+           <div>
+             <p>Your trusted partner for reliable and affordable services.</p>
             <ul class="socials">
-                <li><a href="#"> Instagram <i class="ri-instagram-line"></i> </a></li>
-                <li><a href="#"> Facebook  <i class="ri-facebook-line"></i>  </a></li>
+                <li><a href="https://www.instagram.com/shivammaurya768?utm_source=qr&igsh=Zmo3NWM3enJ4b2xp"> Instagram <i class="ri-instagram-line"></i> </a></li>
+                <li><a href="https://www.facebook.com/share/p/1ApnPHD2gL/"> Facebook  <i class="ri-facebook-line"></i>  </a></li>
                 <li><a href="#">Twitter    <i class="ri-twitter-line"></i>   </a></li>
-                <li><a href="#">Linkedin   <i class="ri-linkedin-line"></i>  </a></li>
-                <li><a href="#">Github     <i class="ri-github-line">  </i>  </a> </li>
+                <li><a href="https://www.linkedin.com/in/shivam-maurya-10508036b?utm_source=share_via&utm_content=profile&utm_medium=member_android">Linkedin   <i class="ri-linkedin-line"></i>  </a></li>
+                <li><a href="https://github.com/shivamaurya768">Github <i class="ri-github-line">  </i>  </a> </li>
             </ul>
-            
+           </div>    
         </div>
         <div class="footer-bottom">
-            <p> Developer Shivam Maurya | Designer Neeraj Vishwakarma | &copy; 2024 Basic Seve. All rights reserved.</p>
+            <p> Developer Shivam Maurya | Designer Shivam Maurya | &copy; 2026 Basic Seve. All rights reserved.</p>
         </div>
     </footer>
     <script src="script.js"></script>
