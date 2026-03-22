@@ -3,13 +3,16 @@ let img2 = document.getElementById("img2");
 let img3 = document.getElementById("img3");
 
 let arr_imgs = [
-  "image/img1.jpg",
-  "image/img2.jpg",
-  "image/img3.jpg",
-  "image/img4.jpeg",
-  "image/img5.jpg",
-  "image/img6.jpg",
-  "image/img7.jpeg"
+  "image/im1.jpeg",
+  "image/im2.jpeg",
+  "image/im3.jpeg",
+  "image/im4.jpg",
+  "image/im5.jpg",
+  "image/im6.jpg",
+  "image/im7.jpg",
+  "image/im8.jpg",
+  "image/im9.jpg",
+  "image/im10.jpeg"
 ];
 
 let index = 0;
